@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- See https://github.com/sillsdev/lift-standard for more information on the format used here. -->
+<lift producer="SIL.FLEx 8.3.12.43172" version="0.13">
+<header>
+<ranges>
+<range id="dialect" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="etymology" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="grammatical-info" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="lexical-relation" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="note-type" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="paradigm" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="reversal-type" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="semantic-domain-ddp4" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="status" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="users" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="location" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<!-- The following ranges are produced by FieldWorks Language Explorer, and are not part of the LIFT standard. -->
+<range id="anthro-code" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="translation-type" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<!-- The parts of speech are duplicated in another range because derivational affixes require a "From" PartOfSpeech as well as a "To" PartOfSpeech. -->
+<range id="from-part-of-speech" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="morph-type" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="exception-feature" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="inflection-feature" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="inflection-feature-type" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="pers-feature-value" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="Pronoun-infl-class" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="Adverb-stem-name" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="Pronoun-stem-name" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="do-not-publish-in" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="domain-type" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="sense-type" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+<range id="usage-type" href="file://C:/git/PyLIFT/test_export/test_export.lift-ranges"/>
+</ranges>
+<fields>
+<field tag="cv-pattern">
+<form lang="en"><text>This records the syllable pattern for a LexPronunciation in FieldWorks.</text></form>
+</field>
+<field tag="tone">
+<form lang="en"><text>This records the tone information for a LexPronunciation in FieldWorks.</text></form>
+</field>
+<field tag="comment">
+<form lang="en"><text>This records a comment (note) in a LexEtymology in FieldWorks.</text></form>
+</field>
+<field tag="import-residue">
+<form lang="en"><text>This records residue left over from importing a standard format file into FieldWorks (or LinguaLinks).</text></form>
+</field>
+<field tag="literal-meaning">
+<form lang="en"><text>This field is used to store a literal meaning of the entry.  Typically, this field is necessary only for a compound or an idiom where the meaning of the whole is different from the sum of its parts.</text></form>
+</field>
+<field tag="summary-definition">
+<form lang="en"><text>A summary definition (located at the entry level in the Entry pane) is a general definition summarizing all the senses of a primary entry. It has no theoretical value; its use is solely pragmatic.</text></form>
+</field>
+<field tag="scientific-name">
+<form lang="en"><text>This field stores the scientific name pertinent to the current sense.</text></form>
+</field>
+</fields>
+</header>
+<entry dateCreated="2020-02-09T20:29:30Z" dateModified="2020-02-09T20:56:13Z" id="test.citation_2119c87d-fbf5-4136-bd55-c83b9eec1833" guid="2119c87d-fbf5-4136-bd55-c83b9eec1833">
+<lexical-unit>
+<form lang="pt"><text>test1</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<citation>
+<form lang="pt"><text>test.citation</text></form>
+</citation>
+<note type="bibliography">
+<form lang="en"><text>test.bib</text></form>
+</note>
+<note>
+<form lang="en"><text>test.etym.note</text></form>
+</note>
+<field type="literal-meaning">
+<form lang="en"><text>test.lit.meaning</text></form>
+</field>
+<note type="restrictions">
+<form lang="en"><text>test.restriction</text></form>
+</note>
+<field type="summary-definition">
+<form lang="en"><text>test.summary.def</text></form>
+</field>
+<field type="import-residue">
+<form lang="en"><text>test.import.residue</text></form>
+</field>
+<variant>
+<form lang="pt"><text>test.allomorph</text></form>
+<trait name ="environment" value="/_[+potato]"/>
+<trait  name="morph-type" value="stem"/>
+</variant>
+<relation type="_component-lexeme" ref="test2_f62e78e8-1c82-4c1f-8877-a3f8f3c8854d" order="0">
+<trait name="is-primary" value="true"/>
+<trait  name="complex-form-type" value="Phrasal Verb"/>
+<field type="summary">
+<form lang="en"><text>complex.form.type.comment</text></form>
+</field>
+</relation>
+<relation type="_component-lexeme" ref="test3_d7172788-6bb1-4dc0-abc7-8b73ce224878" order="1">
+<trait  name="complex-form-type" value="Phrasal Verb"/>
+<field type="summary">
+<form lang="en"><text>complex.form.type.comment</text></form>
+</field>
+</relation>
+<relation type="_component-lexeme" ref="test2_f62e78e8-1c82-4c1f-8877-a3f8f3c8854d" order="0">
+<trait  name="variant-type" value="Unspecified Variant"/>
+<field type="summary">
+<form lang="en"><text>variant.comment</text></form>
+</field>
+</relation>
+<relation type="Compare" ref="test2_f62e78e8-1c82-4c1f-8877-a3f8f3c8854d"/>
+<pronunciation>
+<form lang="pt"><text>test.pronunciation</text></form>
+<field type="cv-pattern">
+<form lang="en"><text>test.cv</text></form>
+</field>
+<field type="tone">
+<form lang="en"><text>test.tone</text></form>
+</field>
+</pronunciation>
+<sense id="3650afcd-2bca-40f4-bcc0-9719c17a188a">
+<grammatical-info value="Pronoun">
+<trait name="Pronoun-infl-class" value="test.inflection.class"/><trait name="inflection-feature" value="[prnagr:[pers:1]]"/>
+<trait  name="exception-feature" value="test.exception.&quot;feature&quot;"/>
+</grammatical-info>
+<gloss lang="en"><text>test.gloss</text></gloss>
+<definition>
+<form lang="en"><text>test.def</text></form>
+</definition>
+<example source="test.reference">
+<form lang="pt"><text>test.example</text></form>
+<translation type="Free translation">
+<form lang="en"><text>test.translation</text></form>
+</translation>
+<note type="reference">
+<form lang="en"><text>test.reference</text></form>
+</note>
+</example>
+<trait name ="semantic-domain-ddp4" value="6 Work and occupation"/>
+<trait name ="semantic-domain-ddp4" value="1 Universe, creation"/>
+<trait name ="semantic-domain-ddp4" value="3.6 Teach"/>
+<trait name ="semantic-domain-ddp4" value="8.4 Time"/>
+<note type="anthropology">
+<form lang="en"><text>test.anthro.note</text></form>
+</note>
+<note type="bibliography">
+<form lang="en"><text>test.bibliography</text></form>
+</note>
+<note type="discourse">
+<form lang="en"><text>test.discourse.note</text></form>
+</note>
+<note type="encyclopedic">
+<form lang="en"><text>test.encyclopedic.info</text></form>
+</note>
+<note>
+<form lang="en"><text>test.general.note</text></form>
+</note>
+<note type="grammar">
+<form lang="en"><text>test.grammar.note</text></form>
+</note>
+<field type="import-residue">
+<form lang="en"><text>test.import.residue</text></form>
+</field>
+<note type="phonology">
+<form lang="en"><text>test.phonology.note</text></form>
+</note>
+<note type="restrictions">
+<form lang="en"><text>test.restriction</text></form>
+</note>
+<field type="scientific-name">
+<form lang="en"><text>test.scientific.name</text></form>
+</field>
+<note type="semantics">
+<form lang="en"><text>test.semantics.note</text></form>
+</note>
+<note type="sociolinguistics">
+<form lang="en"><text>test.sociolinguistics.note</text></form>
+</note>
+<note type="source">
+<form lang="en"><text>test.source</text></form>
+</note>
+<trait  name="anthro-code" value="000"/>
+<trait  name="anthro-code" value="150"/>
+<trait  name="anthro-code" value="210"/>
+<trait  name="anthro-code" value="600"/>
+<trait  name="anthro-code" value="650"/>
+<trait  name="anthro-code" value="670"/>
+<trait  name="anthro-code" value="680"/>
+<trait  name="domain-type" value="language learning"/>
+<trait  name="domain-type" value="linguistics"/>
+<trait  name="domain-type" value="lexicology"/>
+<trait  name="domain-type" value="stylistics"/>
+<trait  name="domain-type" value="medicine"/>
+<trait  name="domain-type" value="psycholinguistics"/>
+<trait  name="domain-type" value="ritual"/>
+<reversal type="en"><form lang="en"><text>test.reversal</text></form>
+</reversal>
+<trait  name="sense-type" value="figurative"/>
+<trait  name="status" value="Confirmed"/>
+<trait  name="usage-type" value="colloquial"/>
+<trait  name="usage-type" value="honorific"/>
+<trait  name="usage-type" value="obsolete"/>
+<trait  name="usage-type" value="rare"/>
+<trait  name="usage-type" value="same sex sibling"/>
+<trait  name="usage-type" value="obscene"/>
+<trait  name="usage-type" value="slang"/>
+<trait  name="usage-type" value="traditional"/>
+<relation type="Part" ref="8cd0fdfd-1d9a-42fd-8fb7-e0ab49d7be9e"/>
+</sense>
+</entry>
+<entry dateCreated="2020-02-09T20:34:13Z" dateModified="2020-02-09T20:41:23Z" id="test2_f62e78e8-1c82-4c1f-8877-a3f8f3c8854d" guid="f62e78e8-1c82-4c1f-8877-a3f8f3c8854d">
+<lexical-unit>
+<form lang="pt"><text>test2</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="stem"/>
+<relation type="_component-lexeme" ref="">
+<trait  name="complex-form-type" value="Unspecified Complex Form"/>
+</relation>
+<relation type="Compare" ref="test.citation_2119c87d-fbf5-4136-bd55-c83b9eec1833"/>
+<sense id="d3f38545-a09f-44f6-927e-9f1d98d2ee8b">
+<grammatical-info value="Verb">
+</grammatical-info>
+<gloss lang="en"><text>test2.gloss</text></gloss>
+</sense>
+</entry>
+<entry dateCreated="2020-02-09T20:34:48Z" dateModified="2020-02-09T20:50:23Z" id="test3_d7172788-6bb1-4dc0-abc7-8b73ce224878" guid="d7172788-6bb1-4dc0-abc7-8b73ce224878">
+<lexical-unit>
+<form lang="pt"><text>test3</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="clitic"/>
+<relation type="_component-lexeme" ref="">
+<trait  name="complex-form-type" value="Unspecified Complex Form"/>
+</relation>
+<sense id="8cd0fdfd-1d9a-42fd-8fb7-e0ab49d7be9e">
+<grammatical-info value="Adverb">
+</grammatical-info>
+<gloss lang="en"><text>test3.gloss</text></gloss>
+<relation type="Whole" ref="3650afcd-2bca-40f4-bcc0-9719c17a188a"/>
+</sense>
+</entry>
+<entry dateCreated="2020-02-09T20:44:00Z" dateModified="2020-02-09T20:56:35Z" id="test4_5178f6f9-1656-4e4f-8158-ad101d68c043" guid="5178f6f9-1656-4e4f-8158-ad101d68c043">
+<lexical-unit>
+<form lang="pt"><text>test4</text></form>
+</lexical-unit>
+<trait  name="morph-type" value="discontiguous phrase"/>
+<relation type="_component-lexeme" ref="3650afcd-2bca-40f4-bcc0-9719c17a188a" order="0">
+<trait name="is-primary" value="true"/>
+<trait  name="complex-form-type" value="Unspecified Complex Form"/>
+</relation>
+<relation type="_component-lexeme" ref="test.citation_2119c87d-fbf5-4136-bd55-c83b9eec1833" order="1">
+<trait name="is-primary" value="true"/>
+<trait  name="complex-form-type" value="Unspecified Complex Form"/>
+</relation>
+<relation type="_component-lexeme" ref="test.citation_2119c87d-fbf5-4136-bd55-c83b9eec1833" order="0">
+<trait  name="variant-type" value="Unspecified Variant"/>
+<trait  name="variant-type" value="Free Variant"/>
+<trait  name="variant-type" value="Irregularly Inflected Form"/>
+<trait  name="variant-type" value="Plural"/>
+<field type="summary">
+<form lang="en"><text>test.variant.comment</text></form>
+</field>
+</relation>
+<sense id="b820c48d-ca44-43d7-b81f-40512d42160d">
+<grammatical-info value="Noun">
+</grammatical-info>
+<gloss lang="en"><text>test4.gloss</text></gloss>
+</sense>
+</entry>
+</lift>
