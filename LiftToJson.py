@@ -42,22 +42,7 @@ def lift_to_json(lift_file, out_file=None):
 def read_entry(entry_element):
     pass
 
-def read_form(form):
-    lang = form.get('lang')
-    text = form.findall('text')
-    text = [get_elem_text(x) for x in text]
-    text = text[0] if len(text) == 1 else text
-    
-    return lang, text
 
-def get_elem_text(elem):
-    out = elem.text if elem.text else ''
-    for span in elem.findall('span'):
-        if span.text:
-            out += span.text
-        if span.tail:
-            out += span.tail
-    return out
 
 if __name__ == '__main__':
     main()

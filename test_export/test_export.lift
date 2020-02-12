@@ -72,7 +72,7 @@
 </note>
 <field type="literal-meaning">
 <form lang="en"><text>test.lit.meaning</text></form>
-</field>
+</field>  
 <note type="restrictions">
 <form lang="en"><text>test.restriction</text></form>
 </note>
@@ -125,15 +125,15 @@
 <definition>
 <form lang="en"><text>test.def</text></form>
 </definition>
-<example source="test.reference">
-<form lang="pt"><text>test.example</text></form>
-<translation type="Free translation">
-<form lang="en"><text>test.translation</text></form>
-</translation>
-<note type="reference">
-<form lang="en"><text>test.reference</text></form>
-</note>
-</example>
+	<example source="test.reference">
+	<form lang="pt"><text>test.example</text></form>
+	<translation type="Free translation">
+	<form lang="en"><text>test.translation</text></form>
+	</translation>
+	<note type="reference">
+	<form lang="en"><text>test.reference</text></form>
+	</note>
+	</example>
 <trait name ="semantic-domain-ddp4" value="6 Work and occupation"/>
 <trait name ="semantic-domain-ddp4" value="1 Universe, creation"/>
 <trait name ="semantic-domain-ddp4" value="3.6 Teach"/>

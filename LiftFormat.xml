@@ -1,0 +1,144 @@
+<!-- 
+The following tag labels are NOT structured <tag><form><text>"text"</text></form></tag>
+* <trait>
+* <relation>
+* <sense>
+	- grammatical info
+	- gloss
+
+-->
+
+<entry dateCreated="date" dateModified="date" id="word_h3x-h4sh" guid="h3x-h4sh">
+	<lexical-unit>
+		<form lang="ISO code">
+			<text>
+				headword
+			</text>
+		</form>
+	</lexical-unit>
+	<trait name="morph-type" value="stem,root,etc."/>
+	<citation>
+		<form lang="ISO code">
+			<text>
+				citation form
+			</text>
+		</form>
+	</citation>
+	<note type="bibliography, restrictions, etc."> | <note>
+		<form lang="ISO code">
+			<text>
+				note
+			</text>
+		</form>
+	</note>
+	*
+	<variant>
+		<form lang="ISO code">
+			<text>
+				allomorph
+			</text>
+		</form>
+	</variant>
+	<relation type="variant type" ref="hdwrd-id-h3x-h4sh">
+		<trait name="" value=""/>
+		*
+		<field type="summary">
+			<form lang="">
+				<text>
+					summary
+				</text>
+			</form>
+		</field>
+		?
+	</relation>
+	*
+	<field type="CustomFieldName">
+		<form lang="">
+			<text>
+				custom field data
+			</text>
+		</form>
+	</field>
+	*
+	<pronunciation>
+		<form lang="ISO code">
+			<text>
+				pronunciation
+			</text>
+		</form>
+		<field type="cv-pattern, tone, etc.">
+			<form lang="ISO code">
+				<text>
+					pronunciation field
+				</text>
+			</form>
+		</field>
+	</pronunciation>
+	<sense id="">
+		<grammatical-info value="part of speech">
+			<trait name="infl-class, exception-feature, etc.", value="val"/>
+			*
+		</grammatical-info>
+		<gloss lang="">
+			<text>
+				gloss
+			</text>
+		</gloss>
+		*
+		<definition>
+			<form lang="">
+				<text>
+					definition
+				</text>
+			</form>
+			+
+		</definition>
+		<example source="source id?">
+			<form lang="ISO code">
+				<text>
+					example text
+				</text>
+			</form>
+			<translation type="translation type">
+				<form lang="ISO code">
+					<text>
+						translation text
+					</text>
+				</form>
+			</translation>
+			<note type="reference">
+				<form lang="ISO code">
+					<text>
+						reference text
+					</text>
+				</form>
+			</note>
+		</example>
+		<reversal type="ISO code">
+			<form>
+				<text>
+					reversal form
+				</text>
+			</form>
+		</reversal>
+		*
+		<note type="">
+			<form lang="">
+				<text>
+					note
+				</text>
+			</form>
+		</note>
+		<trait name="anthro-code, domain-type etc." value="123"/>
+		<relation type="variant type" ref="hdwrd-id-h3x-h4sh">
+		<trait name="" value=""/>
+		<field type="summary">
+			<form lang="">
+				<text>
+					summary
+				</text>
+			</form>
+		</field>
+	</relation>
+	</sense>
+</entry>
